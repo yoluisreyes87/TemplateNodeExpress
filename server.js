@@ -13,6 +13,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(puerto, () => {
-  console.log('Server configurado correctamente')
   console.log('hola desde el server de Express: http://localhost:' + puerto)
 })
